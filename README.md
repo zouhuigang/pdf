@@ -25,6 +25,8 @@
 
     https://foxyutils.com/wordtopdf/
     https://www.ilovepdf.com/zh-cn
+    https://github.com/sunreaver/docanalysis
+    https://github.com/sajari/docconv
 
 
 ### 其他插件
