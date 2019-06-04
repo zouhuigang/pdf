@@ -45,3 +45,10 @@
     将Windows系统的C:\Windows\Fonts目录中的中文字体（比如输入微软雅黑）上传到Linux，可在
     /usr/share/fonts/下创建一个目录（比如chinese)保存各种中文字体
 
+### wkhtmltopdf 安装
+
+    https://wkhtmltopdf.org/downloads.html
+    wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox-0.12.5-1.centos7.x86_64.rpm
+    yum install local wkhtmltox-0.12.5-1.centos7.x86_64.rpm
+    wkhtmltopdf -V
+
