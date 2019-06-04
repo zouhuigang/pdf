@@ -25,3 +25,20 @@
 
     https://foxyutils.com/wordtopdf/
 
+
+### 其他插件
+
+
+    https://github.com/zouhuigang/converter
+
+    1、在阿里云CentOS7.4安装calibre碰到了之前在其它版本未遇到的很多问题，安装了如下依赖包，使得ebook-convert可以生成各种文件：
+    yum -y install mesa-libGL.x86_64
+    yum -y install ImageMagick
+    yum install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel gcc gcc-c++ openssl-devel
+    yum install Xcb
+    yum -y install qt5*
+
+    2、虽然生成文件了，但中文都没了，是因为Linux系统少了中文字体
+    将Windows系统的C:\Windows\Fonts目录中的中文字体（比如输入微软雅黑）上传到Linux，可在
+    /usr/share/fonts/下创建一个目录（比如chinese)保存各种中文字体
+
