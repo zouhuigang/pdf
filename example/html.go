@@ -40,11 +40,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	// doc := wkhtmltopdf.NewDocument()
-	// pg := wkhtmltopdf.NewPage("www.matougr.com")
-	// doc.AddPages(pg)
+	doc := wkhtmltopdf.NewDocument()
+	pg := wkhtmltopdf.NewPage("www.matougr.com")
+	doc.AddPages(pg)
 
-	// doc.WriteToFile("matougr.pdf")
+	doc.WriteToFile("matougr.pdf")
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
 

@@ -52,3 +52,9 @@
     yum install local wkhtmltox-0.12.5-1.centos7.x86_64.rpm
     wkhtmltopdf -V
 
+### calibre 安装
+
+    sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+    ebook-convert --version
+
